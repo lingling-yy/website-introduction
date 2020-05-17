@@ -1,0 +1,43 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>登录界面</title>
+	</head>
+	<style type="text/css">
+		*{text-align: center;
+		  padding: 10px;
+		 }
+		body{background: #111111 url(https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1588936253061&di=fd2db42b69f46b1170d2124efeef340f&imgtype=0&src=http%3A%2F%2Fb-ssl.duitang.com%2Fuploads%2Fitem%2F201807%2F18%2F20180718023401_wdxgt.jpg);     /*插入背景图片*/
+		    background-size:cover;             /*设置图片显示*/
+		    background-repeat: no-repeat;}
+		.head{background: #C8C2C2; width: 340px; height: 30px;
+			  margin-left: 640px;
+		      margin-top: 100px;
+		      font-family: SimHei;font-size: 20px;color: aliceblue;}
+		div.transbox{background:#FFFFFF;
+		             filter: alpha(opacity=60);
+		             opacity: 0.9;
+		             width: 340px;
+			         height: 200px;
+		             margin-left: -100px;
+		             margin-top: -165px;
+		             left: 50%;top: 50%;
+		             position: absolute;}
+	</style>
+	
+	<body>
+		<p class="head">用户登录</p>
+		<div class="transbox">
+			
+			<form >
+				<input required type="email" placeholder="输入邮箱地址" size="30">
+				<br><br>
+				<input required type="password" placeholder="账号密码" size="30">
+		<br><br>
+		
+		<input type="submit" value="登陆">
+			</form>
+		</div>
+	</body>
+</html>
